@@ -27,6 +27,7 @@ func rectangleProperties(length, width float64) (float64, float64) {
 func squareProperties(length, width float64) (area, perimeter float64) {
 	area = length * width
 	perimeter = (length + width) * 2
+	// --- NOTE: There is no explicit return value
 	return
 }
 
@@ -44,4 +45,12 @@ func main() {
 	// --- Testing Function 4
 	area2, perimeter2 := squareProperties(11.1, 11.1)
 	fmt.Printf("\nArea %f Perimeter %f", area2, perimeter2)
+
+	// --- Testing Function 5 with the Blank Identifier
+	// --- Below, the parameter "perimeter" is discarded
+	area3, _ := rectangleProperties(11.1, 2.5)
+	fmt.Printf("\nThis area is %f ", area3)
 }
+
+// --- OTHER NOTES:
+// --- "_" is considered a blank identifier. Blank is used in place of any value of any type.
