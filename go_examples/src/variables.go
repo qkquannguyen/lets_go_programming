@@ -23,6 +23,6 @@ func main() {
 	member, status := "Monji", "retired"
 	fmt.Println("Member Name:", member, "\nStatus:", status)
 
-	// --- NOTE:
+	// --- NOTES:
 	// --- Go-Lang is capable of type inference
 }
