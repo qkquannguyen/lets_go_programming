@@ -33,6 +33,7 @@ func main() {
 		j += 2
 	}
 
+	// --- Example of multiple initialization and increment
 	for no, k := 10, 1; k <= 10 && no <= 19; k, no = k+1, no+1 {
 		fmt.Printf("%d * %d = %d\n", no, k, no*k)
 	}

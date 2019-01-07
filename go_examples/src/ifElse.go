@@ -34,3 +34,8 @@ func main() {
 		fmt.Println("number is greater than 100")
 	}
 }
+
+// --- NOTES
+// --- The "else" statement needs to be on the SAME line as the } bracket of the "if" or "else if"
+// --- Compiler will complain if the "else" is on another line.
+// --- The reason is because of Go-Lang's semicolon insertion rule
